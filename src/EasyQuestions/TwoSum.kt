@@ -48,7 +48,7 @@ fun twoHash(nums: IntArray, target: Int): IntArray {
 /*
     oneHash, will compare past number as numbers are being inserted into the hashtable.
     TimeComplexity: O(n)
-    SpaceComplexity: O(n), space required depends on the number of items stored. 
+    SpaceComplexity: O(n), space required depends on the number of items stored.
  */
 fun oneHash(nums: IntArray, target: Int): IntArray {
     val map: MutableMap<Int, Int> = HashMap()
